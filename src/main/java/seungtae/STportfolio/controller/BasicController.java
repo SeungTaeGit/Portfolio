@@ -20,11 +20,6 @@ public class BasicController {
         return "page/contact";
     }
 
-    @GetMapping("login")
-    public String hideLogin() {
-        return "page/login";
-    }
-
     @GetMapping("manage")
     public String hideManage() {
         return "page/management";
