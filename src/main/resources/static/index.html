@@ -2,36 +2,46 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
+
+    <link type="text/css" href="../css/basic.css" rel="stylesheet">
+<!--    <link th:href="@{/css/header.css}"-->
+<!--          href="../css/header.css" rel="stylesheet">-->
+    <link type="text/css" href="../css/home.css" rel="stylesheet">
+
     <title>LST's Portfolio</title>
 </head>
 <body>
 
-<h2> HOME! </h2>
-
-<ul>
-    <li> <h4>Menu (Header)</h4>
+<header id="homeHead">
+    <nav id="homeNav">
         <ul>
-            <li><a href="/">HOME</a></li>
-            <li><a href="/portfolio">PORTFOLIO</a></li>
-            <li><a href="/contact">CONTACT ME</a></li>
-            <li><a href="/login">LOGIN (HIDE)</a></li>
+            <li>
+                <ul>
+                    <li id="main" class="homeli"><a href="/">LST'S PORTFOLIO</a></li>
+                    <li class="homeli"><a href="/">ABOUT ME</a></li>
+                    <li class="homeli"><a href="/">SKILLS</a></li>
+                    <li class="homeli"><a href="/portfolio">PORTFOLIO</a></li>
+                    <li class="homeli"><a href="/contact">CONTACT</a></li>
+                    <li class="homeli"><a href="/login">LOGIN (HIDE)</a></li>
+                </ul>
+            </li>
         </ul>
-    </li>
-</ul>
+    </nav>
+</header>
 
-<div class="site">
+<div id="site">
     <h4>SITE 소개</h4>
 </div>
 
-<div class="me">
-    <h4>본인 소개</h4>
+<div id="me">
+    <h4>ABOUT ME</h4>
 </div>
 
-<div class="tech">
-    <h4>기술 스택</h4>
+<div id="tech">
+    <h4>SKILLS</h4>
 </div>
 
-<div class="footer">
+<div id="footer">
     <h5>footer</h5>
 </div>
 
