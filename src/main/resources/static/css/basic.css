@@ -8,11 +8,15 @@
 
 html {
     font-size : 62.5%;
+    height : 100%;
+    scroll-behavior: smooth;
 }
 
 body {
     font-family : 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
     min-width : 320px;
+    height : 100%;
+    overflow : hidden;
 }
 
 button {
