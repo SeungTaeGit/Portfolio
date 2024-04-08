@@ -25,6 +25,17 @@
     display : inline;
     padding-right : 0.7rem;
 }
+/* 헤더 호버 애니메이션 */
+.effect a {
+    /**/
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.effect a:hover {
+    color : wheat;
+    transition : 0.7s;
+}
 
 
 /* 스크롤 이벤트 관련 */
@@ -58,6 +69,21 @@
     align-items: center;
     color : wheat;
     font-weight: 510;
+    background: linear-gradient(-35deg, #1b1d25, #464852, #56585D, #1b1d25);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+/* INTRO PAGE animation */
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 #siteDiv {
     text-align: center;
@@ -112,4 +138,43 @@
     justify-content: center;
     align-items: center;
     color : wheat;
+}
+
+
+
+
+/* TEST */
+/* 배경 */
+.backSky {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(to right, #111, #0e0f19);
+  overflow: hidden;
+}
+/* 별을 감싼 부모 */
+.sky {
+  width: 100vw;
+  height: 100vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: moveStar 240s linear infinite;
+}
+/* 별 */
+.sky .star {
+  fill: #fff;
+  stroke: none;
+  stroke-width: 0;
+}
+/* 별 이동효과 */
+@keyframes moveStar {
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }
