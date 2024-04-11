@@ -3,7 +3,13 @@
 
 ### 서비스 소개
 ---
-  - SeungTae's Portfolio Web Site
+  - **SeungTae's Portfolio Web Site**
+  - volsume.1
+<br>
+
+### 개발 기간
+---
+2024.03 - 2024.04
 <br>
 
 ### 요구사항
