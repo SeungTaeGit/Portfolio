@@ -10,6 +10,7 @@
     /* box-shadow: 0 0 15px 20px #f1efe9; */
     font-weight: 800;
     font-family : 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+    color : #d7d5d1;
 }
 #homeNav {
 }
@@ -121,11 +122,13 @@
 }
 #meTiTle {
     font-size : 4rem;
-    color : #E7BAD2;
+    /*color : #E7BAD2;*/
+    color : wheat;
     font-weight: 550;
 }
 #meEm {
-    color : #E7BAD2;
+    /*color : #E7BAD2;*/
+    color : wheat;
 }
 .meImg {
     width : 4rem;
@@ -180,7 +183,7 @@
     padding:5px 10px;
     border-radius:5px;
     color:#fff;
-    background:#E7BAD2;
+    background:wheat;
     box-shadow:0 3px 8px rgba(165, 165, 165, 0.5);
 }
 [data-tooltip]:after{
@@ -188,7 +191,7 @@
     border-left:5px solid transparent;
     top:2px;
     border-right:5px solid transparent;
-    border-top:5px solid #E7BAD2;
+    border-top:5px solid wheat;
 }
 [data-tooltip]:not([data-tooltip=""]):hover:before{visibility:visible;opacity:1;top:-30px}
 [data-tooltip]:not([data-tooltip=""]):hover:after{visibility:visible;opacity:1;top:-8px}
@@ -197,7 +200,7 @@
 /* 메인 페이지의 기술 스택 소개 부분 */
 /* section id = "tech" */
 #tech {
-    background-color : #56585D;
+    background-color : #242631;
     width : 100%;
     height : 100%;
     font-size: 1.5rem;
@@ -209,13 +212,18 @@
 #techDiv {
     line-height: 3.5rem;
     font-size: 1.7rem;
+    display: flex;
+}
+.techDiv {
+    margin-right: 15rem;
 }
 .techText {
     color: #e9e9e9;
 }
 .techTitle {
     font-size: 4rem;
-    color: #E7BAD2;
+    /*color: #E7BAD2;*/
+    color: wheat;
     font-weight: 550;
 }
 
