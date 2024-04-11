@@ -1,3 +1,33 @@
 header {
-    background-color : #f1efe9
+    position: fixed;
+    /* background-color : #f1efe9; */
+    width : 100%;
+    height : 6rem;
+    font-size: 1.5rem;
+    padding: 2.5rem 20rem;
+    z-index : 10;
+    /* box-shadow: 0 0 15px 20px #f1efe9; */
+    font-weight: 800;
+    font-family : 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+    color : #d7d5d1;
+}
+#haedUl {
+    float : left;
+}
+#main {
+    padding-right : 3rem;
+}
+.headLi {
+    display : inline;
+    padding-right : 0.7rem;
+}
+/* 헤더 호버 애니메이션 */
+.effect a {
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.effect a:hover {
+    color : wheat;
+    transition : 0.7s;
 }
