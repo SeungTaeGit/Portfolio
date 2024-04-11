@@ -210,7 +210,7 @@
     align-items: center;
 }
 #techDiv {
-    line-height: 3.5rem;
+    line-height: 3.1rem;
     font-size: 1.7rem;
     display: flex;
 }
@@ -225,6 +225,14 @@
     /*color: #E7BAD2;*/
     color: wheat;
     font-weight: 550;
+    padding: 1rem 0rem;
+}
+.techUl {
+}
+.techLi {
+    font-size: 1.4rem;
+    padding-left: 2rem;
+    color: #b3b0a8;
 }
 
 
@@ -239,8 +247,50 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color : wheat;
+    color : white;
 }
+#footerDiv {
+    line-height: 2.5rem;
+    font-size: 1.7rem;
+}
+#footerText {
+    color : #e9e9e9
+}
+#footerTitle {
+    font-size : 4rem;
+    /*color : #E7BAD2;*/
+    color : wheat;
+    font-weight: 550;
+}
+#footerUl {
+    display : flex;
+    flex-wrap : wrap;
+    text-align : center;
+    margin-left : 2rem;
+    margin-top : 2rem;
+}
+.footerLi {
+    margin-right : 20rem;
+    font-weight : 550;
+}
+.footerLi span {
+    opacity : 1;
+    transition : 0.4s ease;
+}
+.footerLi span:hover {
+    opacity : 0.9;
+}
+.footerImg {
+    width : 4rem;
+    height : 4rem;
+    opacity : 1;
+    -webkit-transition : 0.5s ease-in-out;
+    transition : 0.5s ease-in-out;
+}
+.footerImg:hover {
+    opacity : 0.4;
+}
+/* 배너 */
 #banner {
     width: 100%;
     height: 10rem;
