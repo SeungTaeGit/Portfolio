@@ -3,7 +3,7 @@ package seungtae.STportfolio;
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
-import seungtae.STportfolio.dto.Manager;
+import seungtae.STportfolio.domain.Manager;
 import seungtae.STportfolio.repository.MemberRepository;
 
 @Component

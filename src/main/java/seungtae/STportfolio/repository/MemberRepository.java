@@ -2,7 +2,7 @@ package seungtae.STportfolio.repository;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Repository;
-import seungtae.STportfolio.dto.Manager;
+import seungtae.STportfolio.domain.Manager;
 
 import java.util.*;
 

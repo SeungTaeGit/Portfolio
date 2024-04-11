@@ -3,7 +3,7 @@ package seungtae.STportfolio.service;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import seungtae.STportfolio.dto.Manager;
+import seungtae.STportfolio.domain.Manager;
 import seungtae.STportfolio.repository.MemberRepository;
 
 @Service

@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import seungtae.STportfolio.dto.Manager;
+import seungtae.STportfolio.domain.Manager;
 import seungtae.STportfolio.service.LoginService;
 
 @Controller

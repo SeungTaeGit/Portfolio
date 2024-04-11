@@ -1,4 +1,4 @@
-package seungtae.STportfolio.dto;
+package seungtae.STportfolio.domain;
 
 import lombok.Data;
 import lombok.Getter;
