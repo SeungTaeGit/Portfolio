@@ -1,0 +1,15 @@
+#contact {
+    background-color : #1b1d25;
+    width : 100%;
+    height : 100%;
+    font-size: 1.5rem;
+    /* 요소 중앙 배치 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color : white;
+}
+#contactDiv {
+    line-height: 2.5rem;
+    font-size: 1.7rem;
+}
