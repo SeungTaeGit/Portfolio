@@ -3,11 +3,18 @@
 
 ### 서비스 소개
 ---
-  - SeungTae's Portfolio Web Site
+  - **SeungTae's Portfolio Web Site**
+  - volsume.1
+<br>
+
+### 개발 기간
+---
+2024.04 - 2024.04
 <br>
 
 ### 요구사항
 ---
+  - 
 <br>
 
 ### API 설계
@@ -33,6 +40,7 @@
 
 ### 관리자 페이지
 ---
+  - 서버의 여러 지표를 로그 형태로 확인.
 <br>
 
 
