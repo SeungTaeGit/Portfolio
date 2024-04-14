@@ -126,7 +126,7 @@
     color : wheat;
     font-weight: 550;
 }
-#meEm {
+.Em {
     /*color : #E7BAD2;*/
     color : wheat;
 }
@@ -258,11 +258,12 @@
 #footerText {
     color : #e9e9e9
 }
-#footerTitle {
+.footerTitle {
     font-size : 4rem;
     /*color : #E7BAD2;*/
     color : wheat;
     font-weight: 550;
+    line-height: 4rem;
 }
 #footerUl {
     display : flex;
