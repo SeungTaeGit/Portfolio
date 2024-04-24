@@ -6,7 +6,7 @@
 개인 포트폴리오 용도의 프로젝트
 <br>
 
-**메인 페이지 화면 추가**
+![localhost_8080_](https://github.com/SeungTaeGit/Portfolio/assets/129585999/e89cc28a-150f-4b23-b8c2-9add6036f40e)
 
 #### 개발 기간
 2024.03 - 2024.04
