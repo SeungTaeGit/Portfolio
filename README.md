@@ -1,15 +1,15 @@
-## Portfolio
+# Portfolio
+> **SeungTae's Portfolio Web Site**
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FSeungTaeGit%2Fhit-counter&count_bg=%233D64C8&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
+개인 포트폴리오 용도의 프로젝트
 <br>
 
-### 서비스 소개
----
-  - **SeungTae's Portfolio Web Site**
-  - volsume.1
-<br>
+**메인 페이지 화면 추가**
 
-### 개발 기간
----
-2024.04 - 2024.04
+#### 개발 기간
+2024.03 - 2024.04
 <br>
 
 ### 요구사항
@@ -17,14 +17,8 @@
   - 
 <br>
 
-### API 설계
----
-  - **GET** : / : HOME
-  - **GET** : / : 
-
 ### 사용 설명서
 ---
-
   #### 사용자 타입
   `사용자(Guest)`, `관리자(SeungTae)`
   #### 서비스 이용 흐름
