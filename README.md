@@ -1,8 +1,6 @@
 # Portfolio
 > **SeungTae's Portfolio Web Site**
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FSeungTaeGit%2Fhit-counter&count_bg=%233D64C8&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-
 개인 포트폴리오 용도의 프로젝트
 <br>
 
