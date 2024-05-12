@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" href="../css/basic.css" rel="stylesheet">
+    <link type="text/css" href="../css/header.css" rel="stylesheet">
+    <link type="text/css" href="../css/portfolio.css" rel="stylesheet">
+
+    <title>LST's Portfolio</title>
+</head>
+<body>
+
+<header th:replace="layout/header::header"></header>
+
+<section id="site" class="container">
+
+    <div id="siteDiv">
+
+<!--        <img src="../image/portfolio.png" class="mainImg">-->
+
+        <div class="siteText">
+            <h1 class="Title">LST's Portfolio</h1>
+            <br>
+            <p>저를 대표하는 첫 번째 포트폴리오 사이트입니다.</p>
+            <p>짧고 깊은 인상을 드리기 위해 기술보다는, 글 위주로 개발한 프로젝트입니다.</p>
+            <br>
+            <p>주력으로 공부하고 있던 <b class="Em">Spring Framework</b>를 조금이나마 사용할 수 있었습니다.</p>
+            <br>
+            <p>주변의 도움과 조언에 대한 수용과 보유한 기술로 어떻게 구현할 것인지와,</p>
+            <p>나름 만족스러운 끝맺음을 볼 수 있었던 프로젝트입니다.</p>
+            <br>
+        </div>
+
+        <hr>
+
+        <div class="siteEx">
+            <div id="tech" class="siteText">
+                <p class="Title">Project Info</p>
+                <ul id="siteUl">
+                    <li class="siteLi">
+                        <img src="../image/java.png" class="siteImg">
+                        <div><span data-tooltip="Java 17">Java</span></div>
+                    </li>
+                    <li class="siteLi">
+                        <img src="../image/spring.png" class="siteImg">
+                        <div><span data-tooltip="Spring 3.2.4">Spring</span></div>
+                    </li>
+                    <li class="siteLi">
+                        <img src="../image/aws.png" class="siteImg">
+                        <div><span data-tooltip="EC2">AWS</span></div>
+                    </li>
+                </ul>
+            </div>
+            <br>
+        </div>
+
+        <div class="techText">
+            <ul class="techUl">제작 기간
+                <li class="techLi">2024.04. ~ 2024.04.</li>
+            </ul>
+            <ul class="techUl">제작 영역
+                <li class="techLi">프로젝트 전반</li>
+            </ul>
+        </div>
+
+        <a href="https://github.com/SeungTaeGit/Portfolio.git" class="portfolioBtn">Github</a>
+        <a href="/" class="portfolioBtn Btn2">URL</a>
+    </div>
+
+</section>
+
+</body>
+</html>

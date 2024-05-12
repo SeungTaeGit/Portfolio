@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" href="../css/basic.css" rel="stylesheet">
+    <link type="text/css" href="../css/header.css" rel="stylesheet">
+    <link type="text/css" href="../css/portfolio.css" rel="stylesheet">
+
+    <title>LST's Portfolio</title>
+</head>
+<body>
+
+<header th:replace="layout/header::header"></header>
+
+<section id="site" class="container">
+
+    <div id="siteDiv">
+
+<!--        <img src="../image/portfolio.png" class="mainImg">-->
+
+        <div class="siteText">
+            <h1 class="Title">CheckMate</h1>
+            <br>
+            <p>백엔드 개발자라면 기본적으로 유명한 To-do List 관리 웹 사이트 입니다.</p>
+            <p>CRUD API의 기본적인 구조와 메소드 등을 학습하기 위한 프로젝트입니다.</p>
+            <br>
+            <p><b class="Em">Spring Framework</b>를 본격적으로 사용하기 시작한 프로젝트입니다.</p>
+            <p>기본적인 로그인 구현 및 처리, 리스트에 대한 CRUD 처리 등을 구현했습니다.</p>
+            <br>
+            <p>데이터 접근 기술에 대한 지식이 전무하던 때 개발하기 시작한터라,</p>
+            <p>Database 연동 및 활용을 과감히 포기하고 구현했습니다.</p>
+            <p>개인적으로 프로젝트에서 가장 아쉬움이 남는 부분입니다.</p>
+            <br>
+        </div>
+
+        <hr>
+
+        <div class="siteEx">
+            <div id="tech" class="siteText">
+                <p class="Title">Project Info</p>
+                <ul id="siteUl">
+                    <li class="siteLi">
+                        <img src="../image/java.png" class="siteImg">
+                        <div><span data-tooltip="Java 17">Java</span></div>
+                    </li>
+                    <li class="siteLi">
+                        <img src="../image/spring.png" class="siteImg">
+                        <div><span data-tooltip="Spring 3.2.2">Spring</span></div>
+                    </li>
+                    <li class="siteLi">
+                        <img src="../image/aws.png" class="siteImg">
+                        <div><span data-tooltip="EC2">AWS</span></div>
+                    </li>
+                </ul>
+            </div>
+            <br>
+        </div>
+
+        <div class="techText">
+            <ul class="techUl">제작 기간
+                <li class="techLi">2024.02. ~ 2024.05.</li>
+            </ul>
+            <ul class="techUl">제작 영역
+                <li class="techLi">프로젝트 전반</li>
+            </ul>
+        </div>
+
+        <a href="https://github.com/SeungTaeGit/CheckMate.git" class="portfolioBtn">Github</a>
+        <a href="/" class="portfolioBtn Btn2">URL</a>
+    </div>
+
+</section>
+
+</body>
+</html>

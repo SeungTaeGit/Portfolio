@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" href="../css/basic.css" rel="stylesheet">
+    <link type="text/css" href="../css/header.css" rel="stylesheet">
+    <link type="text/css" href="../css/portfolio.css" rel="stylesheet">
+
+    <title>LST's Portfolio</title>
+</head>
+<body>
+
+<header th:replace="layout/header::header"></header>
+
+<section id="site" class="container">
+
+    <div id="siteDiv">
+
+<!--        <img src="../image/portfolio.png" class="mainImg">-->
+
+        <div class="siteText">
+            <h1 class="Title">Basic product CRUD</h1>
+            <br>
+            <p>전 프로젝트인 'CheckMate'와 비슷한 CRUD 학습을 위한 프로젝트입니다.</p>
+            <p>'CheckMate' 와 비견되어 CRUD 관련 메소드들의 발전 및 다른 방식으로의 구현을 주로 학습했습니다.</p>
+            <br>
+            <p>주력인 <b class="Em">Spring Framework</b>와 더불어, <b class="Em">MySQL</b> 데이터베이스와 <b class="Em">JDBC Template</b>을 활용해,</p>
+            <p>저번 프로젝트에선 구현하지 못했던 기본 DB 스키마 구현과 스프링과의 연동을 했습니다.</p>
+            <br>
+            <p>기존에도 데이터베이스 지식은 보유하고 있었지만 데이터 접근 기술 지식이 전무하여 연동시키지 못했던</p>
+            <p>Database와 Spring을 이번 프로젝트를 통해서 연동 시킨 것이 이번 프로젝트 가장 큰 성과라고 생각합니다.</p>
+            <br>
+        </div>
+
+        <hr>
+
+        <div class="siteEx">
+            <div id="tech" class="siteText">
+                <p class="Title">Project Info</p>
+                <ul id="siteUl">
+                    <li class="siteLi">
+                        <img src="../image/java.png" class="siteImg">
+                        <div><span data-tooltip="Java 17">Java</span></div>
+                    </li>
+                    <li class="siteLi">
+                        <img src="../image/spring.png" class="siteImg">
+                        <div><span data-tooltip="Spring 3.2.5">Spring</span></div>
+                    </li>
+                    <li class="siteLi">
+                        <img src="../image/mysql.png" class="siteImg">
+                        <div><span data-tooltip="MySQL 8.0.37">MySQL</span></div>
+                    </li>
+                </ul>
+            </div>
+            <br>
+        </div>
+
+        <div class="techText">
+            <ul class="techUl">제작 기간
+                <li class="techLi">2024.04. ~ 2024.05.</li>
+            </ul>
+            <ul class="techUl">제작 영역
+                <li class="techLi">프로젝트 전반</li>
+            </ul>
+        </div>
+
+        <a href="https://github.com/SeungTaeGit/java-backend-study.git" class="portfolioBtn">Github</a>
+    </div>
+
+</section>
+
+</body>
+</html>
