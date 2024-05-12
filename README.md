@@ -1,30 +1,18 @@
-## Portfolio
+# Portfolio
+> **SeungTae's Portfolio Web Site**
+
+개인 포트폴리오 용도의 프로젝트
 <br>
 
-### 서비스 소개
----
-  - **SeungTae's Portfolio Web Site**
-  - volsume.1
+![localhost_8080_](https://github.com/SeungTaeGit/Portfolio/assets/129585999/e89cc28a-150f-4b23-b8c2-9add6036f40e)
+
+#### 개발 기간
+2024.03 - 2024.04
 <br>
 
-### 개발 기간
----
-2024.04 - 2024.04
-<br>
-
-### 요구사항
----
-  - 
-<br>
-
-### API 설계
----
-  - **GET** : / : HOME
-  - **GET** : / : 
 
 ### 사용 설명서
 ---
-
   #### 사용자 타입
   `사용자(Guest)`, `관리자(SeungTae)`
   #### 서비스 이용 흐름
@@ -35,12 +23,6 @@
   **회원** : `열람` <br>
   **관리자** : `로그`, `사이트 관리` <br>
   #### 참고 자료
-<br>
-
-
-### 관리자 페이지
----
-  - 서버의 여러 지표를 로그 형태로 확인.
 <br>
 
 
