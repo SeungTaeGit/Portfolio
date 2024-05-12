@@ -238,6 +238,59 @@
 }
 
 
+/* 메인 페이지의 기술 스택 소개 부분 */
+/* section id = "portfolio" */
+#portfolio {
+    background-color : #242631;
+    width : 100%;
+    height : 100%;
+    font-size: 1.5rem;
+    /* 요소 중앙 배치 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#portfolioDiv {
+}
+#portfolioTitle {
+    font-size: 5rem;
+    color: wheat;
+    font-weight: 550;
+    line-height: 4rem;
+}
+.portfolio {
+    background-color: white;
+    width: 20rem;
+    height: 20rem;
+    margin: 2rem;
+    float: left;
+    border-radius: 1.5rem;
+    animation-name : moving;
+    animation-direction:alternate;
+    animation-iteration-count:infinite;
+    animation-duration: 3s;
+    position:relative;
+    transition: all 1s;
+}
+/*애니메이션 효과*/
+@-webkit-keyframes moving {
+  0% {
+    top:0rem;
+  }
+  50% {
+    top:1rem;
+  }
+  100% {
+    top:1.5rem;
+  }
+}
+.portfolioImg {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1.2rem;
+}
+
+
 /* 메인 페이지의 footer banner 부분 */
 /* section id = "footer" */
 #footer {
@@ -300,7 +353,7 @@
     width: 100%;
     height: 10rem;
     position: absolute;
-    top: 371rem;
+    top: 467rem;
     text-align: center;
     background-color: #191919;
     padding-top: 2rem;
