@@ -6,22 +6,22 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/")
+@RequestMapping("/portfolio")
 @Slf4j
-public class BasicController {
+public class PortfolioController {
 
-    @GetMapping("portfolio")
+    @GetMapping("/portfolio")
     public String portfolio() {
-        return "page/portfolio";
+        return "portfolio/portfolio";
     }
 
-    @GetMapping("contact")
+    @GetMapping("/checkmate")
     public String contact() {
-        return "page/contact";
+        return "portfolio/checkmate";
     }
 
-    @GetMapping("manage")
+    @GetMapping("/basic")
     public String hideManage() {
-        return "page/management";
+        return "portfolio/basicCRUD";
     }
 }
