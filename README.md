@@ -1,11 +1,11 @@
 # Portfolio
 > **SeungTae's Portfolio Web Site**
 
-- 개인 포트폴리오 용도의 프로젝트입니다.
-<br>
-
 ![localhost_8080_](https://github.com/SeungTaeGit/Portfolio/assets/129585999/e89cc28a-150f-4b23-b8c2-9add6036f40e)
 
+- 개인 포트폴리오 용도의 프로젝트입니다.
+
+  
 #### 개발 기간
 2024.03 - 2024.04
 <br>
@@ -47,5 +47,112 @@
 ### 디렉토리 구조
 ---
 ```bash
-
+├─.gradle
+│  ├─8.7
+│  │  ├─checksums
+│  │  ├─dependencies-accessors
+│  │  ├─executionHistory
+│  │  ├─expanded
+│  │  ├─fileChanges
+│  │  ├─fileHashes
+│  │  └─vcsMetadata
+│  ├─buildOutputCleanup
+│  └─vcs-1
+├─.idea
+│  └─modules
+├─build
+│  ├─classes
+│  │  └─java
+│  │      └─main
+│  │          └─seungtae
+│  │              └─STportfolio
+│  │                  ├─controller
+│  │                  ├─domain
+│  │                  ├─repository
+│  │                  └─service
+│  ├─generated
+│  │  └─sources
+│  │      ├─annotationProcessor
+│  │      │  └─java
+│  │      │      └─main
+│  │      └─headers
+│  │          └─java
+│  │              └─main
+│  ├─resources
+│  │  └─main
+│  │      ├─static
+│  │      │  ├─css
+│  │      │  ├─image
+│  │      │  └─js
+│  │      └─templates
+│  │          ├─layout
+│  │          ├─page
+│  │          └─portfolio
+│  └─tmp
+│      └─compileJava
+│          └─compileTransaction
+│              ├─backup-dir
+│              └─stash-dir
+├─gradle
+│  └─wrapper
+└─src
+    ├─main
+    │  ├─java
+    │  │  └─seungtae
+    │  │      └─STportfolio
+    │  │          ├─controller
+    │  │              ├─LoginController
+    │  │              └─PortfolioController
+    │  │          ├─domain
+    │  │              ├─Manager
+    │  │              └─Portfolio
+    │  │          ├─repository
+    │  │              └─MemberRepository
+    │  │          ├─service
+    │  │              └─LoginService
+    │  │          ├─ManagerData
+    │  │          └─StPortfolioApplication      // Main Thread
+    │  └─resources
+    │      ├─static
+    │      │  ├─css
+    │      │      ├─basic.css
+    │      │      ├─contact.css
+    │      │      ├─header.css
+    │      │      ├─home.css
+    │      │      └─portfolio.css
+    │      │  ├─image
+    │      │      ├─aws.png
+    │      │      ├─BASIC.png
+    │      │      ├─calendar.png
+    │      │      ├─call.png
+    │      │      ├─certificate.png
+    │      │      ├─checkmate.png
+    │      │      ├─education.png
+    │      │      ├─github.png
+    │      │      ├─java.png
+    │      │      ├─location.png
+    │      │      ├─LST.png
+    │      │      ├─mail.png
+    │      │      ├─mysql.png
+    │      │      ├─portfolio.png
+    │      │      ├─spring.png
+    │      │      ├─spring boot.png
+    │      │      └─user.png
+    │      │  ├─js
+    │      │      ├─script.js
+    │      │      └─star.js
+    │      │  └─index.html      // HOME.html
+    │      └─templates
+    │          ├─layout
+    │              └─header.html
+    │          ├─page
+    │              └─login.html
+    │          └─portfolio
+    │              ├─basicCRUD.html
+    │              ├─checkmate.html
+    │              └─portfolio.html
+    └─test
+        └─java
+            └─seungtae
+                └─STportfolio
 ```
