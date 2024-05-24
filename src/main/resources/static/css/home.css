@@ -289,6 +289,13 @@
     height: 20rem;
     border-radius: 1.2rem;
 }
+.PortSpan {
+    color: white;
+    margin-top: 65rem;
+    position: absolute;
+    font-size: 2.5rem;
+}
+
 
 
 /* 메인 페이지의 footer banner 부분 */
