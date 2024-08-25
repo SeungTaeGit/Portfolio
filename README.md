@@ -3,7 +3,7 @@
 
 ![localhost_8080_](https://github.com/SeungTaeGit/Portfolio/assets/129585999/e89cc28a-150f-4b23-b8c2-9add6036f40e)
 
-- 개인 포트폴리오 용도의 프로젝트입니다.
+- **개인 포트폴리오** 용도의 프로젝트입니다.
 
   
 #### 개발 기간
